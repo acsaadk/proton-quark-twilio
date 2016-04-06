@@ -1,9 +1,9 @@
 const Quark = require('../index');
 const should = require('should');
 
-// export process.env.TWILIO_ACCOUNT_SID = 'AC0e44c9fd3b4b68e26e046c5412aa796c'
-// export process.env.TWILIO_AUTH_TOKEN = '50730cf1c9588176ea3f7b084dcbdb8a'
-// export process.env.TWILIO_SENDER_PHONE_NUMBER = '+1 385-355-6412'
+// export process.env.TWILIO_ACCOUNT_SID = '***************'
+// export process.env.TWILIO_AUTH_TOKEN = '**************'
+// export process.env.TWILIO_SENDER_PHONE_NUMBER = '****'
 
 describe('Quark test', () => {
   it('should expose an object to send SMS messages via Twilio', done =>  {
