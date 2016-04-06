@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Quark to consume Tiwilio's SMS API",
   "main": "index.js",
-  "script": {
+  "scripts": {
     "start": "node index.js",
     "test": "./node_modules/mocha/bin/mocha -R spec ./test/*.js"
   },
