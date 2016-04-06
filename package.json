@@ -1,6 +1,6 @@
 {
   "name": "proton-quark-tiwilio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quark to consume Tiwilio's SMS API",
   "main": "index.js",
   "scripts": {
