@@ -1,0 +1,20 @@
+{
+  "name": "proton-quark-tiwilio",
+  "version": "1.0.0",
+  "description": "Quark to consume Tiwilio's SMS API",
+  "main": "index.js",
+  "script": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha -R spec ./test/*.js"
+  },
+  "author": "Nucleos",
+  "license": "ISC",
+  "dependencies": {
+    "proton-quark": "^1.0.0",
+    "twilio": "^2.9.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": ">= 0.0.1"
+  }
+}
