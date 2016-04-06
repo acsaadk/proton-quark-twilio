@@ -10,12 +10,12 @@ describe('Quark test', () => {
     const quark = new Quark({});
     quark.validate();
     quark.initialize();
-    global.should.have.property('TwilioSMS');
+    global.should.have.property('twilioSMS');
     done();
   });
 
   it('should send a SMS to a specific phone number', done => {
-    TwilioSMS
+    twilioSMS
     .send('+58 424-948-6309', 'This is an automatic generated message')
     .then((response) => {
       console.log(response);

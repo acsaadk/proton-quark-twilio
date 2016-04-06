@@ -20,7 +20,7 @@ class TiwilioQuark extends Quark {
   }
 
   initialize(){
-    global.TwilioSMS = new SMS();
+    global.twilioSMS = new SMS();
   }
 
   get accountSid(){
